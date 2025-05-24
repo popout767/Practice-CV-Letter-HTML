@@ -1,2 +1,5 @@
-# Practice-CV-Letter-HTML
-This is my first HTML project and I'm just starting out.
+1. Download VSCODe
+2. Download the LiveServer Exstension in VScode
+3. Drag the file into VScode
+4. RightClick on the code and Click Open with Live Server
+5. DONE!
