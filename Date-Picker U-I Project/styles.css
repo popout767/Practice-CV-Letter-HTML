@@ -1,0 +1,95 @@
+    .date-month-year {
+        position: absolute;
+        font-size: medium;
+        font-style: oblique;
+        right: 50%;
+    }
+
+
+    .border-dmy{
+            position: relative;
+            box-sizing: border-box;
+            left:  44%;
+            right: 102%;
+            width: 150px;
+            bottom: 10px;
+            height: 50px;
+            padding: 1px;
+            border: 2px  solid rgb(0, 0, 0);
+    }
+.calendar-img {
+  position: fixed;
+  right: 700px;
+  top: 1px;
+  bottom: 200px;
+  left: 1000px;
+  right: 20px;
+  width: 50px  ;
+  height: 50px  ;
+  border-radius: 50px;
+  margin-right: 10px;
+}
+
+
+.main-calendar-border{
+             position: relative;
+            box-sizing: border-box;
+            left:  44%;
+            right: 102%;
+            width: 150px;
+            bottom: 30px;
+            height: 125px;
+            padding: 1px;
+            border: 2px  solid rgb(0, 0, 0);
+            text-align: center;
+}
+
+ 
+
+.right-arrow{
+  position: fixed;
+  top: 1%;
+  right: 20%;
+  left: 50.9%;
+  bottom: 10%;
+}
+
+.left-arrow{
+  position: relative;
+   left:  44.3%;
+   right: 60%;
+   bottom: 173px;
+}
+
+
+
+.calendar {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  gap: 1px;
+  list-style: none;
+  padding: 0;
+  margin: 10px auto;
+  max-width: 100%;
+  bottom: 45.5px;
+  position: relative; /* or remove it */
+}
+
+
+.calendar li {
+  border: 1px solid #ffffff;
+  padding: 1px;
+  position: relative;
+  background-color: #f9f9f9;
+  border-radius: 1px;
+}
+
+
+
+
+
+.grid-columns{
+  display: -ms-grid;
+   grid-template-columns: auto auto auto auto;
+   position: absolute;
+}
