@@ -1,0 +1,48 @@
+.container {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 3px;
+  position: absolute;
+  display: grid;
+}
+
+.white-living-room {
+  width: 1250px;
+  height: auto;
+  grid-row: 1;  
+  grid-column: 2;
+}
+
+.beautiful-dinner {
+  width: 950px;
+  height: 850px;
+  grid-column: 1;
+  grid-row: 1;
+}
+
+
+
+.beach {
+  width: 950px;
+  height:  auto;
+  grid-column: 1;
+  grid-row: 3;
+}
+
+
+.white-apartment {
+  grid-column: 2; /* Second column = right side */
+  grid-row: 2;    /* 2nd row = top */
+  width: 1250px;
+  height: 1000px;
+
+}
+
+.mountain{
+  grid-row: 2;
+  grid-column: 1;
+  height: auto;
+  width: auto;
+  max-width: 5550  ;
+  max-height: 1000px;
+}
